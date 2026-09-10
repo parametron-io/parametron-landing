@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50mm"
+   height="50mm"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <rect
+       style="fill:#0f172a;fill-opacity:1;stroke:#000000;stroke-width:0.490099;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="49.009899"
+       height="49.009899"
+       x="0.49504951"
+       y="0.49504951"
+       rx="5.8898201" />
+    <path
+       style="font-size:50.8px;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk';fill:#7dd3fc;stroke-width:0.5;stroke-linejoin:round"
+       d="M 13.930881,42.002144 V 6.4421444 h 13.6144 q 3.2004,0 5.6896,1.27 2.54,1.2192 4.0132,3.5051996 1.4732,2.286 1.4732,5.5372 v 0.6604 q 0,3.2004 -1.524,5.5372 -1.4732,2.286 -4.0132,3.5052 -2.54,1.2192 -5.6388,1.2192 h -9.3472 v 14.3256 z m 4.2672,-18.1864 h 8.89 q 3.4036,0 5.3848,-1.6764 1.9812,-1.7272 1.9812,-4.826 v -0.508 q 0,-3.0988 -1.9812,-4.7752 -1.9304,-1.7272 -5.3848,-1.7272 h -8.89 z"
+       id="text1"
+       aria-label="P" />
+  </g>
+</svg>

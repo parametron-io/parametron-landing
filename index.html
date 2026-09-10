@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Parametron is an early-stage project for deterministic engineering automation and CAD runtime integration.">
+  <title>Parametron — Engineering automation</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header container">
+    <img class="brand-logo" src="assets/logo.svg" alt="Parametron" width="220" height="50">
+    <a href="https://github.com/parametron-io/">GitHub</a>
+  </header>
+
+  <main id="main" class="container" tabindex="-1">
+    <section class="introduction" aria-labelledby="introduction-heading">
+      <h1 id="introduction-heading">Parametron</h1>
+      <p class="lead">Deterministic engineering automation and CAD runtime integration.</p>
+      <p>An early-stage engineering project. Current development focuses on Parametron Engine and its integration with FreeCAD for local, headless CAD automation.</p>
+      <a href="https://github.com/parametron-io/">Parametron on GitHub</a>
+    </section>
+
+    <section aria-labelledby="why-heading">
+      <h2 id="why-heading">Why Parametron?</h2>
+      <p>Engineering automation often spans CAD-specific scripts, application state, and manual operations. The steps and assumptions needed to repeat a run can be scattered across tools.</p>
+      <p>Parametron aims to make inputs, execution steps, and results explicit, so engineering workflows can be repeated, checked, and integrated with other tools. Determinism is a requirement to verify through repeatable tests.</p>
+    </section>
+
+    <section aria-labelledby="work-heading">
+      <h2 id="work-heading">Current work</h2>
+      <p><strong>Parametron Engine</strong> is being developed as the layer responsible for deterministic validation, planning, and execution. Its scope includes explicit adapter contracts and the normalization of runtime results into engineering records.</p>
+      <p><strong>FreeCAD integration</strong> focuses on CAD-native operations behind those Engine-owned contracts. The runtime design uses isolated working copies to keep source documents unchanged.</p>
+      <p>This work targets local, headless operation. It is under development and is not a finished product.</p>
+    </section>
+
+    <section aria-labelledby="project-heading">
+      <h2 id="project-heading">Public project</h2>
+      <p>Parametron is early-stage. Public repositories are published as they are prepared for external use. The <a href="https://github.com/parametron-io/">GitHub organization</a> is the home of the public project; the <a href="https://github.com/parametron-io/parametron-docs">public engineering documentation</a> describes its current scope and repository boundaries.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <div class="footer-row">
+      <p>© 2026 Parametron</p>
+      <nav aria-label="Project links">
+        <a href="https://github.com/parametron-io/">GitHub</a>
+        <a href="https://github.com/parametron-io/parametron-docs">Documentation</a>
+      </nav>
+    </div>
+    <p class="license-note">Website source: <a href="LICENSE">MIT</a>. Parametron names and brand assets are excluded; source reuse grants no rights to the names or marks.</p>
+  </footer>
+</body>
+</html>
