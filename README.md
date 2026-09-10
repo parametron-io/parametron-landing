@@ -6,13 +6,20 @@ dependencies, or build step.
 
 ## Local preview
 
-Open `index.html` in a browser, or serve the repository with Python 3:
+Website files live in `public/`. Open `public/index.html` in a browser, or serve
+the site from the repository root with Python 3:
 
 ```sh
-python3 -m http.server 8000 --bind 127.0.0.1
+python3 -m http.server 8000 --bind 127.0.0.1 --directory public
 ```
 
 Then open <http://localhost:8000>.
+
+## Deployment
+
+The site is deployed as static assets from `public/`, configured in
+`wrangler.jsonc`. Cloudflare Workers Builds can run `npx wrangler deploy`.
+No application build step is required.
 
 ## Public project
 
