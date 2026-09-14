@@ -1,8 +1,9 @@
 # Parametron landing page
 
 This repository contains the public landing page for Parametron: a small static
-site built with HTML, CSS, and local brand assets. It has no JavaScript,
-dependencies, or build step.
+site built with HTML, CSS, and local brand assets. It has no client-side
+JavaScript, no runtime or client-side dependencies, and no application build
+step. Deployment tooling may use Cloudflare Wrangler.
 
 ## Local preview
 
@@ -20,6 +21,12 @@ Then open <http://localhost:8000>.
 The site is deployed as static assets from `public/`, configured in
 `wrangler.jsonc`. Cloudflare Workers Builds can run `npx wrangler deploy`.
 No application build step is required.
+
+### Continuous deployment
+
+Pull requests receive Cloudflare preview deployments for visual verification.
+After a pull request is merged to `main`, Cloudflare automatically deploys the
+site to production through the repository's GitHub integration.
 
 ## Public project
 
